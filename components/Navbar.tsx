@@ -6,7 +6,7 @@ import { Button } from './ui/button'
 
 const Navbar = () => {
   return (
-    <nav className='fixed w-full max-w-[1240px]'>
+    <nav className='fixed w-full max-w-[1240px] z-10 '>
       <div className='flex justify-between mx-auto px-4 py-1'>
         <Link href={'/'}>
         <Image

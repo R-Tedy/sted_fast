@@ -4,7 +4,7 @@ import { Button } from './ui/button'
 
 const Hero = () => {
   return (
-    <section className='min-h-dvh pt-16 px-2'>
+    <section className='min-h-[100vh] pt-16 px-2'>
       <h1 className='text-center text-4xl capitalize font-bold '>
         The future of manufacturing with <span className='text-primary'>latest technology</span>
       </h1>
@@ -83,7 +83,7 @@ const Hero = () => {
         </div>
 
 
-        <div className='h-72 lg:h-80 lg:col-span-8 grid gap-2 lg:grid-rows-12'>
+        <div className='h-fit lg:h-80 lg:col-span-8 grid gap-2 lg:grid-rows-12'>
           <div className='lg:row-span-3 gap-2 lg:my-auto'>
             <div className='flex gap-2 items-center justify-center'>
               <Image
