@@ -118,6 +118,6 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground max-w-[1240px] mx-auto py-2 w-full;
   }
 }
