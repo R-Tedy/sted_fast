@@ -1,4 +1,5 @@
 import Benefits from '@/components/Benefits'
+import Companies from '@/components/Companies'
 import Hero from '@/components/Hero'
 import Prices from '@/components/Prices'
 import Services from '@/components/Services'
@@ -11,6 +12,7 @@ const page = () => {
       <Services/>
       <Benefits/>
       <Prices/>
+      <Companies/>
     </section>
   )
 }
