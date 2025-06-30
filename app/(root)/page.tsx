@@ -1,5 +1,6 @@
 import Benefits from '@/components/Benefits'
 import Hero from '@/components/Hero'
+import Prices from '@/components/Prices'
 import Services from '@/components/Services'
 import React from 'react'
 
@@ -9,6 +10,7 @@ const page = () => {
       <Hero/>
       <Services/>
       <Benefits/>
+      <Prices/>
     </section>
   )
 }
